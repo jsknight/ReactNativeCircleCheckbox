@@ -13,6 +13,7 @@ import PropTypes from 'prop-types';
 import {
   StyleSheet,
   View,
+  ViewPropTypes,
   Text,
   TouchableOpacity,
 } from 'react-native'
@@ -30,7 +31,7 @@ class CircleCheckBox extends Component {
    innerColor: PropTypes.string,
    onToggle: PropTypes.func.isRequired,
    labelPosition: PropTypes.oneOf(['right', 'left']),
-   styleCheckboxContainer: View.propTypes.style,
+   styleCheckboxContainer: ViewPropTypes.style,
    styleLabel: Text.propTypes.style,
   };
 
