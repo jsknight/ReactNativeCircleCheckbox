@@ -18,7 +18,7 @@ import {
   TouchableOpacity,
 } from 'react-native'
 
-class CircleCheckBox extends Component {
+export default class CircleCheckBox extends Component {
 
   static propTypes = {
    checked: PropTypes.bool,
@@ -130,5 +130,3 @@ var styles = StyleSheet.create({
     marginRight: 5
   }
 });
-
-module.exports = CircleCheckBox;
